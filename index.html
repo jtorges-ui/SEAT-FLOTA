@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ASIENTO FLOTA</title>
-  <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#000000">
+
+  <!-- 🔽 ESTO ES CLAVE -->
+  <link rel="manifest" href="manifest.webmanifest" />
+
 </head>
 <body>
+  <img src="logo-seat.png" width="200" />
   <h1>ASIENTO FLOTA</h1>
   <p>App de gestión de flota SEAT</p>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
 </body>
 </html>
