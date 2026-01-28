@@ -1,6 +1,6 @@
 {
-  "name": "ASIENTO FLOTA SEAT",
-  "short_name": "SEAT FLOTA",
+  "name": "ASIENTO FLOTA",
+  "short_name": "ASIENTO",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
